@@ -1,0 +1,129 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+    background-color: #0077FF;
+}
+.header__logo {
+    height: 70px;
+}
+header p {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 170px;
+
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+header a {
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 25px;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    color: #213053;
+    margin: 0;
+}
+
+.game {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: lightgray;
+}
+.game__placeholderImage {
+    width: 100%;
+}
+
+
+.rules {
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background-color:#FFFFFF;
+}
+
+.rules__info {
+    max-width: 800px;
+}
+
+.techInfo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background-color:#FFFFFF;
+}
+.techInfo__info {
+    max-width: 1600px;
+}
+.techInfo h1 {
+    font-size:24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.about__sun-image {
+    width: 100px;
+    height: 100px;
+}
+.about__image {
+    width: 500px;
+}
+
+.about {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    background: url("img/back.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about h1 {
+    font-size:70px;
+    line-height: 76px;
+}
+.about p {
+    font-size: 18px;
+    line-height:30px;
+    opacity: 0.8;
+}
+.about button {
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 20px 25px 20px 25px;
+    margin-top: 25px;
+}
+.about__info {
+    max-width: 550px;
+}
+
+.form__container {
+    width: 550px;
+}
+.form__group {
+    
+}
